@@ -1,0 +1,19 @@
+Description: change install path
+ what else to say? :)
+ .
+ rpfits (2.23-1) unstable; urgency=low
+ .
+   * Initial release
+Author: Gijs Molenaar <gijs@pythonic.nl>
+
+--- rpfits-2.23.orig/linux64/GNUmakefile
++++ rpfits-2.23/linux64/GNUmakefile
+@@ -15,7 +15,7 @@ RANLIB := ranlib
+ LDFLAGS :=
+ 
+ # Where to install stuff.
+-PREFIX := /usr/local
++PREFIX := ${DESTDIR}/usr
+ 
+ #-----------------------------------------------------------------------------
+ # Include generic RPFITS makefile.

@@ -1,0 +1,13 @@
+Source: rpfits
+Section: science
+Priority: extra
+Maintainer: Gijs Molenaar <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://www.atnf.csiro.au/computing/software/rpfits.html
+
+Package: rpfits
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: data-recording format
+ used since the mid-1980s within the Australia Telescope National Facility (ATNF).
