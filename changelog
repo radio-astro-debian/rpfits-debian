@@ -1,3 +1,9 @@
+rpfits (2.23-1trusty) trusty; urgency=medium
+
+  * compile for trusty
+
+ -- Gijs Molenaar <gijs@pythonic.nl>  Mon, 12 Jan 2015 15:01:18 +0100
+
 rpfits (2.23-2precise1) precise; urgency=low
 
   * compile everything with -fPIC

@@ -11,3 +11,6 @@
 
 %:
 	dh $@ --sourcedirectory=linux64
+
+override_dh_auto_test:
+	true
